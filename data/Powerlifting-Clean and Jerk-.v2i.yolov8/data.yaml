@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [16, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+nc: 14
+names: ['Drive', 'Drop Under', 'Drop Weight', 'First Pull', 'Front Rack Catch', 'Front Rack Recovery', 'Lift Complete', 'Overhead Catch', 'Overhead Catch Recovery', 'Prepare For Dip', 'Prepare for Lift', 'Second Pull', 'Stabilize Weight Overhead', 'Turn Over']
+
+roboflow:
+  workspace: kilos-workspace
+  project: powerlifting-clean-and-jerk-yz8mx
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/kilos-workspace/powerlifting-clean-and-jerk-yz8mx/dataset/2

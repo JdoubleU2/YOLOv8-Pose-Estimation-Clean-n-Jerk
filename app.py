@@ -5,7 +5,7 @@ import tempfile
 import time
 
 MODEL_PATH = '/Users/jabinwade/Coding/ComputerVision/ComputerVision-FinalProject/powerlifting-pose.pt'
-CLASS_NAMES = [...]  # your list as before
+CLASS_NAMES = [] 
 
 if "detection_order" not in st.session_state:
     st.session_state.detection_order = []
@@ -116,5 +116,5 @@ if uploaded_file is not None:
     st.success(f"Video processing complete! Processed {frame_count} frames.")
 
 else:
-    st.info("👆 Upload a video file to start detection")
+    st.info("Upload a video file to start detection")
 

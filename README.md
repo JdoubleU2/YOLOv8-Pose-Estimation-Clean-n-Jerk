@@ -35,16 +35,6 @@ This project implements an automated system for detecting and classifying powerl
 13. Dip
 14. Prepare for Lift
 
-## Repository Structure
-repo/
-├── app.py # Streamlit web application
-├── powerlifting-pose.pt # Trained YOLOv8 pose model
-├── src/ # Source code and training notebooks
-├── data/ # Dataset and annotations
-├── runs/ # Training run results
-├── runs2/ # Additional training experiments
-├── runs3/ # Additional training experiments
-└── sample_videos/ # Sample videos for testing
 ## Model Performance
 
 <img width="4000" height="1200" alt="results" src="https://github.com/user-attachments/assets/600f3841-cd7a-4518-b352-aa37b8fbc0c0" />

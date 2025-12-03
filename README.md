@@ -72,7 +72,7 @@ repo/
 
 - **Total Frames**: 679 manually annotated frames
 - **RoboFlow Link**: https://universe.roboflow.com/kilos-workspace/powerlifting-clean-and-jerk-yz8mx
-- **RoboFlow ID **: powerlifting-clean-and-jerk-yz8mx
+- **RoboFlow ID**: powerlifting-clean-and-jerk-yz8mx
 
 ## Notes & What could have gone better
 

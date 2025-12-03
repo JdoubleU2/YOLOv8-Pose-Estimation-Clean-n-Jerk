@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import tempfile
 import time
 
-MODEL_PATH = '/Users/jabinwade/Coding/ComputerVision/ComputerVision-FinalProject/runs2/powerlifting-pose.pt'
+MODEL_PATH = '/Users/jabinwade/Coding/ComputerVision/ComputerVision-FinalProject/powerlifting-pose.pt'
 CLASS_NAMES = [...]  # your list as before
 
 if "detection_order" not in st.session_state:

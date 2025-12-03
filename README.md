@@ -36,7 +36,7 @@ This project implements an automated system for detecting and classifying powerl
 14. Prepare for Lift
 
 ## Repository Structure
-ComputerVision-FinalProject/
+repo/
 ├── app.py # Streamlit web application
 ├── powerlifting-pose.pt # Trained YOLOv8 pose model
 ├── src/ # Source code and training notebooks
